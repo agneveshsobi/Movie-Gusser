@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const API = axios.create({
-  baseURL: "http://127.0.0.1:8000/api",
+  baseURL: "https://movie-guesser-api.onrender.com/api",
 })
 
 // automatically add token to every request if logged in
