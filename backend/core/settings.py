@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-k+vuq4zh#cdn#!#3z93e&&l9^z93k!nd7kfd1*_q5b5#)t$1d9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['movie-guesser-api.onrender.com', 'localhost']
 
 # Application definition
 
@@ -135,6 +134,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://movie-guesser-one.vercel.app",
 ]
 
 REST_FRAMEWORK = {
